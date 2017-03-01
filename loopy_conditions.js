@@ -6,7 +6,15 @@
  * @param  { Number } b
  * @return { Number }
  */
+function greaterNumber(a,b) {
+	if (a > b) {
+		return a;
+	} else {
+		return b;
+	}
+}
 
+greaterNumber(4,8);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -17,7 +25,15 @@
  * @param  { Number } n
  * @return { String }
  */
-
+function stringOfNumbers(n) {
+	var total = [];
+	for (var i = 0; i <= n; i++) {
+		console.log(total.push(i));
+	}
+	console.log(total.join());
+	return total.join();
+}
+stringOfNumbers(10);
 
 /**
  * Create a function called 'sumOfArray'.
@@ -27,7 +43,10 @@
  * @param  { array } arr
  * @return { Number }
  */
-
+function sumOfArray(arr) {
+	var sum = [];
+	
+}
 
 /**
  * Create a function called 'getEvens'.
@@ -36,7 +55,9 @@
  * @param  { array } arr
  * @return { array }
  */
+function getEvens(arr) {
 
+}
 
 /**
  * Create a function called 'getOdds'.
@@ -45,7 +66,9 @@
  * @param  { array } arr
  * @return { array }
  */
-
+function getOdds(arr) {
+	// body...
+}
 
 /**
  * Create a function called 'calculate'.
@@ -61,3 +84,7 @@
  * @param  { String } operator ('add', subtract, 'multiply', 'divide')
  * @return { Number/String }
  */
+
+function calculate(x,y,z) {
+	// body...
+}
